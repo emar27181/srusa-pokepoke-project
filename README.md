@@ -1,4 +1,20 @@
+# srusa-pokepoke-project
+## サイト概要
+現在作成中
+
+## デプロイ方法
+1. `$ npm run build`で`out/`ディレクトリを更新
+    - `./next.config.ts`の`output: 'export'`で静的エクスポートに設定している
+2. `$ netlify login`でログイン
+    - すでにログインしている場合は不要
+3. `$ netlify deploy --prod --dir=out`でデプロイ
+
+<br/>※以下より元プロジェクトの文章 <br/>
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## 製作者
+- 
 
 ## Getting Started
 
